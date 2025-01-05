@@ -1,0 +1,112 @@
+body {
+    margin: 10px;
+    text-align: center;
+    background-color: black;;
+    color: white;   
+}
+#container{
+    width: 400px;
+    height: 350px;
+    margin: auto;
+    background-color:#1F2937;
+    padding: 20px;
+    font-weight: 400;
+    letter-spacing: -0.025em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    font-family: "Inter", serif;
+}
+.inputBox{
+    padding:15px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid rgb(1, 45, 7);
+    background-color: #02533c;
+    box-shadow: 2px 2px 5px rgb(127, 126, 126);
+    font-weight: normal;
+    font-size:15px;
+    
+}
+.inputBox div{
+    padding: 5px;
+}
+
+.header{
+    font-family: "Karla", serif;
+    margin: 0;
+
+}
+.highlight{
+    color: #10B981;
+    margin: 0;
+}
+.info{
+    margin-top:0;
+    margin-bottom: 15px;
+    color:#D5D4D8;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.btn{
+    margin-top:5px;
+    padding: 9px 17px 9px 15px;
+    background-color:#10B981;
+    border-radius: 6px;
+    opacity: 0px;
+    color:#FFFFFF;
+    width:200px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.sep{
+    margin: 20px 0px;
+    border: 1px solid #2F3E53;
+    border-bottom: 2px;
+}
+.resultbox{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 411px;
+    height: 39px; 
+    margin-right: 20px;
+}
+.result{
+    width: 180px;
+    height: 30px;
+    border-radius: 6px;
+    opacity: 0px;
+    background-color:#273549;
+    text-align: center;
+    line-height: 30px;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #55F991;
+
+}
+.copy{
+   width:15px;
+   height:15px;
+   background-color: white;
+   cursor: pointer;
+}

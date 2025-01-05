@@ -1,0 +1,33 @@
+
+<html>
+    <head>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js"></script>
+
+        
+    </head>
+    <body>
+        <div id="container">
+            <h1 class="header">Generate a <p class="highlight">random password</p></h1>
+            <p class="info">Never use an insecure password again.</p>
+            <div class="inputBox">
+                <div><label>Set the password length:&nbsp;</label><input id="paswdlen" type="number" min="1" max="15" value="15" /></div>
+                <div><input id="numCheck" type="checkbox" onchange="toggleNum()" checked="true" /><label>Include Numbers</label></div>
+                <div><input id="symbolsCheck" type="checkbox" onchange="toggleSymbol()" checked="true" /><label>Include Symbols</label></div>
+                <button class="btn" onclick="display()">Generate passwords</button>
+            </div>
+
+            
+            <div class="sep"></div>
+            <div class="resultbox">
+                <p class="result" id="pswrd1"></p><img src="copy.png" onclick="copyPswd(1)" class="copy">
+                <p class="result" id="pswrd2"></p><img src="copy.png" onclick="copyPswd(2)" class="copy">
+            </div>
+        </div>
+    </body>
+</html>
